@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+    <script src="config.js"></script>
+    <title>Antony Fagundez Console</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="menu">
+        <table>
+          <thead>
+            <tr>
+              <th style="min-width: 214px" data-i18n>Commands</th>
+              <th style="min-width: 250px" data-i18n>Arguments</th>
+              <th data-i18n>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td translate="no"><div class="command">about</div></td>
+              <td></td>
+              <td data-i18n>About me</td>
+            </tr>
+            <tr>
+              <td translate="no"><div class="command">exp</div></td>
+              <td></td>
+              <td data-i18n>Experience</td>
+            </tr>
+            <tr>
+              <td translate="no"><div class="command">educ</div></td>
+              <td></td>
+              <td data-i18n>Education</td>
+            </tr>
+            <tr>
+              <td translate="no"><div class="command">contact</td>
+              <td></td>
+              <td data-i18n>Contact</td>
+            </tr>
+            <tr>
+              <td translate="no"><div class="command">--see</div></td>
+              <td style="min-width: 250px">github | linkedin</td>
+              <td data-i18n>Open in another Tab</td>
+            </tr>
+            <tr>
+              <td translate="no"><div class="command">change-language</td>
+              <td></td>
+              <td data-i18n>Toggle between English and Spanish</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="text warning" data-i18n>
+        PD: You can clear the program with 'cls' or 'clear'
+      </div>
+      <div id="container-input">
+        <label translate="no" class="text" for="input" id="label"
+          >antonyfagundez /></label
+        >
+        <input
+          type="text"
+          name="input"
+          onkeypress="handleKeyPress(event)"
+          id="input"
+        />
+      </div>
+    </div>
+  </body>
+</html>
